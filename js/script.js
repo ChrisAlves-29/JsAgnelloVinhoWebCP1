@@ -65,12 +65,17 @@ if (media >= 6) {
 
 
 // Questão 7:
-document.getElementById("dados").innerHTML = `
-  Nome: Christoffer Alves<br>
-  Idade: 25<br>
-  Curso: Engenharia de Software<br>
-  Ano: 2025
-`;
+// Quando a página estiver completamente carregada, executa a função
+window.onload = function() {
+    // Modifica o conteúdo do elemento com id "dadosAluno"
+    document.getElementById("dadosAluno").innerHTML = `
+      Nome: Christoffer Alves<br>
+      Idade: 25<br>
+      Curso: Engenharia de Software<br>
+      Ano: 2025
+    `;
+  };
+  
 
 
 // Questão 8:
@@ -83,5 +88,7 @@ console.log(texto.includes("métodos")); // Palavra "métodos"
 
 
 // Questão 9:
-
+let numeroStr = "12.34";
+let numeroFloat = parseFloat(numeroStr);
+console.log(typeof numeroFloat); // "number"
 
