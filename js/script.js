@@ -18,6 +18,10 @@ console.log(a >= 3); // true
 
 
 // Questão 3:
+let peso = 75;
+let altura = 1.75;
+let imc = peso / (altura * altura);
+
 
 
 
