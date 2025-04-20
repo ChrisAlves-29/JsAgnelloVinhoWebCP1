@@ -22,7 +22,17 @@ let peso = 75;
 let altura = 1.75;
 let imc = peso / (altura * altura);
 
-
+switch (true) {
+  case (imc < 18.5):
+    console.log("Abaixo do peso");
+    break;
+  case (imc >= 18.5 && imc <= 24.9):
+    console.log("Peso ideal");
+    break;
+  case (imc > 24.9):
+    console.log("Acima do peso");
+    break;
+}
 
 
 // Questão 4:
