@@ -9,7 +9,12 @@ console.log(variavelValor); // "Vinho"
 
 
 // questão 2:
+let a = 5;
+let b = 10;
 
+console.log(a != b); // true
+console.log(a == 5); // true
+console.log(a >= 3); // true
 
 
 // Questão 3:
