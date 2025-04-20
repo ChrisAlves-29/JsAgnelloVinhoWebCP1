@@ -42,10 +42,26 @@ for (let i = 1; i <= 50; i++) {
   
 
 // Questão 5:
+let usuario = prompt("Digite o nome de usuário:");
+let senha = prompt("Digite a senha:");
 
+if (usuario === "admin" && senha === "1234") {
+  console.log("Login realizado com sucesso!");
+} else {
+  console.log("Falha na autenticação!");
+}
 
 
 // Questão 6:
+let notas = [7, 8, 5, 6, 9, 7, 6];
+let soma = notas.reduce((acc, nota) => acc + nota, 0);
+let media = soma / notas.length;
+
+if (media >= 6) {
+  console.log("Aprovado!");
+} else {
+  console.log("Reprovado!");
+}
 
 
 // Questão 7:
