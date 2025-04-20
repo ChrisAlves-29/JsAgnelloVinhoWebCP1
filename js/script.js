@@ -36,7 +36,10 @@ switch (true) {
 
 
 // Questão 4:
-
+for (let i = 1; i <= 50; i++) {
+    console.log(`O valor é: ${i}`);
+  }
+  
 
 // Questão 5:
 
