@@ -1,5 +1,10 @@
 // Questão 1:
-
+let variavelUndefined; // valor undefined por padrão
+let variavelVazia = ""; // valor vazio
+let variavelValor = "Vinho"; // valor com conteúdo
+console.log(variavelUndefined); // undefined
+console.log(variavelVazia); // ""
+console.log(variavelValor); // "Vinho"
 
 
 
