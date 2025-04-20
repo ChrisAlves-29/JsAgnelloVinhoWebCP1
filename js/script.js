@@ -65,11 +65,21 @@ if (media >= 6) {
 
 
 // Questão 7:
-
-
+document.getElementById("dados").innerHTML = `
+  Nome: Christoffer Alves<br>
+  Idade: 25<br>
+  Curso: Engenharia de Software<br>
+  Ano: 2025
+`;
 
 
 // Questão 8:
+let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
+
+console.log(texto.indexOf("em")); // Primeira posição de "em"
+console.log(texto.lastIndexOf("ia")); // Última posição de "ia"
+console.log(texto.includes("ciência")); // Palavra "ciência"
+console.log(texto.includes("métodos")); // Palavra "métodos"
 
 
 // Questão 9:
